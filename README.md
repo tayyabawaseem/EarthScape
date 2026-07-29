@@ -1,37 +1,298 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````md
+# 🌍 EarthScape
 
-## Getting Started
+<p align="center">
+  <img src="public/logo.png" alt="EarthScape Logo" width="120"/>
+</p>
 
-First, run the development server:
+<h3 align="center">
+AI-Powered Climate Intelligence Platform for Pakistan
+</h3>
+
+<p align="center">
+Modern weather forecasting and environmental insights powered by <b>Next.js</b>, <b>FastAPI</b>, and <b>XGBoost Machine Learning</b>.
+</p>
+
+<p align="center">
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-earth--scape.vercel.app-success?style=for-the-badge)](https://earth-scape.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-Machine_Learning-orange?style=for-the-badge)](https://xgboost.readthedocs.io/)
+
+</p>
+
+---
+
+## 🌐 Live Website
+
+### 🔗 https://earth-scape.vercel.app
+
+Experience the live application featuring:
+
+- 🌤️ Real-time weather insights
+- 🤖 AI-powered temperature prediction
+- 📊 Interactive dashboards
+- 🌍 Environmental analytics
+- 📱 Responsive user experience
+
+---
+
+# 📖 Overview
+
+EarthScape is an AI-powered climate intelligence platform designed to provide weather forecasting, environmental monitoring, and data-driven climate insights for Pakistan.
+
+The platform combines a modern web application with a dedicated Machine Learning service to deliver accurate weather predictions, historical climate analysis, and an intuitive dashboard experience.
+
+---
+
+# ✨ Features
+
+## 🌤️ Weather Dashboard
+
+- Live weather information
+- Clean modern interface
+- Interactive visualizations
+- Responsive design
+
+## 🤖 AI Temperature Forecasting
+
+- XGBoost Machine Learning model
+- Historical weather analysis
+- Multi-city forecasting
+- Recursive future predictions
+
+## 📊 Data Analytics
+
+- Historical weather trends
+- Prediction accuracy metrics
+- Interactive charts
+- Climate insights
+
+## ⚡ Performance
+
+- Fast Next.js frontend
+- FastAPI backend
+- Optimized API requests
+- Modern architecture
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+
+## Backend
+
+- FastAPI
+- Python
+
+## Machine Learning
+
+- XGBoost
+- Pandas
+- NumPy
+- Scikit-learn
+- Meteostat
+
+## Deployment
+
+- Vercel
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+```text
+EarthScape
+│
+├── app/
+├── feedback/
+├── lib/
+├── public/
+│
+├── middleware.ts
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+# 🤖 Machine Learning
+
+The Machine Learning service is maintained separately.
+
+### Features
+
+- Temperature Prediction
+- Weather Forecasting
+- Historical Analysis
+- FastAPI API
+- XGBoost Model
+- Prediction Metrics
+
+---
+
+# 🏗 Architecture
+
+```text
+                    Meteostat Weather Data
+                              │
+                              ▼
+                     Data Processing Pipeline
+                              │
+                              ▼
+                    XGBoost ML Model (Python)
+                              │
+                       FastAPI REST API
+                              │
+                              ▼
+                    Next.js Application
+                              │
+                              ▼
+                      EarthScape Dashboard
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/tayyabawaseem/EarthScape.git
+```
+
+Go into the project
+
+```bash
+cd EarthScape
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Production Website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### https://earth-scape.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployment Platform
 
-## Deploy on Vercel
+- Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# EarthScape" 
+# 📸 Screenshots
+
+> Replace these placeholders with actual screenshots.
+
+## Home Page
+
+```
+screenshots/home.png
+```
+
+## Dashboard
+
+```
+screenshots/dashboard.png
+```
+
+## AI Forecast
+
+```
+screenshots/forecast.png
+```
+
+---
+
+# 📈 Roadmap
+
+- ✅ AI Weather Forecasting
+- ✅ Interactive Dashboard
+- ✅ FastAPI Integration
+- ✅ Responsive UI
+- 🔄 Rainfall Prediction
+- 🔄 Air Quality Index
+- 🔄 Climate Reports
+- 🔄 GIS Mapping
+- 🔄 Heatwave Alerts
+- 🔄 User Authentication
+
+---
+
+# 📊 Project Status
+
+| Module | Status |
+|---------|--------|
+| Frontend | ✅ Completed |
+| Dashboard | ✅ Completed |
+| Machine Learning | ✅ Completed |
+| FastAPI | ✅ Completed |
+| Deployment | ✅ Live |
+| Future Enhancements | 🚧 In Progress |
+
+---
+
+# 👩‍💻 Developer
+
+**Tayyaba Waseem**
+
+Full Stack Developer • MERN Stack Developer • AI Enthusiast
+
+### GitHub
+
+https://github.com/tayyabawaseem
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+
+Made with ❤️ by **Tayyaba Waseem**
+
+🌍 https://earth-scape.vercel.app
+
+</p>
+````
