@@ -2,22 +2,15 @@
 # 🌍 EarthScape
 
 <p align="center">
-  <a href="https://earth-scape.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-earth--scape.vercel.app-success?style=for-the-badge" alt="Live Demo"/>
-  </a>
-  <a href="https://github.com/tayyabawaseem/EarthScape" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-  </a>
-</p>
+  <h3 align="center">AI-Powered Climate Intelligence Platform for Pakistan</h3>
+  <p align="center">
+    Real-time weather insights, AI-powered temperature forecasting, and interactive climate analytics built with Next.js, FastAPI, and XGBoost.
+  </p>
 
-<h1 align="center">🌍 EarthScape</h1>
-
-<h3 align="center">
-AI-Powered Climate Intelligence Platform for Pakistan
-</h3>
-
-<p align="center">
-EarthScape combines <strong>Artificial Intelligence</strong>, <strong>Machine Learning</strong>, and <strong>Modern Web Technologies</strong> to deliver weather forecasting, climate insights, and an interactive dashboard experience.
+  <p align="center">
+    <a href="https://earth-scape.vercel.app"><strong>🌐 Live Demo</strong></a> •
+    <a href="https://github.com/tayyabawaseem/EarthScape"><strong>GitHub Repository</strong></a>
+  </p>
 </p>
 
 ---
@@ -26,63 +19,46 @@ EarthScape combines <strong>Artificial Intelligence</strong>, <strong>Machine Le
 
 **Website:** https://earth-scape.vercel.app
 
-Explore the live application to experience:
+EarthScape is live and publicly accessible. Explore the application to experience AI-powered weather forecasting, climate insights, and an interactive dashboard.
 
-- 🌤️ Real-time weather monitoring
-- 🤖 AI-powered temperature forecasting
-- 📈 Historical weather analysis
-- 📊 Interactive climate dashboards
-- 📱 Responsive user interface
+---
+
+# 📖 About
+
+EarthScape is a modern climate intelligence platform designed to provide accurate weather information and AI-powered temperature forecasting for Pakistan.
+
+The platform combines a **Next.js** frontend with a **FastAPI** machine learning service powered by **XGBoost**, enabling users to explore historical weather trends, view interactive dashboards, and generate temperature forecasts for major Pakistani cities.
 
 ---
 
 # ✨ Features
 
-### 🌦️ Weather Dashboard
-
-- Live weather information
-- City-wise forecasts
-- Interactive weather charts
-- Modern responsive interface
-
-### 🤖 AI Temperature Forecasting
-
-- XGBoost Machine Learning model
-- Historical weather analysis
-- Recursive multi-day prediction
-- High-performance prediction API
-
-### 📊 Climate Analytics
-
-- Historical weather trends
-- Prediction accuracy metrics
-- Interactive visualizations
-- Environmental insights
-
-### ⚡ Performance
-
-- Lightning-fast Next.js frontend
-- FastAPI backend
-- Optimized API communication
-- Responsive across all devices
+- 🌤️ Real-time weather dashboard
+- 🤖 AI-powered temperature forecasting
+- 📍 Forecasts for multiple Pakistani cities
+- 📈 Historical weather analysis
+- 📊 Interactive charts and visualizations
+- ⚡ High-performance REST API
+- 📱 Fully responsive design
+- 🔄 Seamless frontend and ML integration
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 
-### Backend
+## Backend
 
 - FastAPI
 - Python
 
-### Machine Learning
+## Machine Learning
 
 - XGBoost
 - Pandas
@@ -90,7 +66,7 @@ Explore the live application to experience:
 - Scikit-learn
 - Meteostat
 
-### Deployment
+## Deployment
 
 - Vercel
 - GitHub
@@ -100,13 +76,12 @@ Explore the live application to experience:
 # 📂 Project Structure
 
 ```text
-EarthScape
+EarthScape/
 │
 ├── app/
 ├── feedback/
 ├── lib/
 ├── public/
-│
 ├── middleware.ts
 ├── next.config.ts
 ├── package.json
@@ -116,75 +91,75 @@ EarthScape
 
 ---
 
-# 🏗 System Architecture
-
-```text
-                 Meteostat Weather Dataset
-                           │
-                           ▼
-                 Data Processing Pipeline
-                           │
-                           ▼
-              XGBoost Machine Learning Model
-                           │
-                           ▼
-                   FastAPI Prediction API
-                           │
-                           ▼
-                Next.js Web Application
-                           │
-                           ▼
-              Interactive EarthScape Dashboard
-```
-
----
-
 # 🤖 Machine Learning
 
-EarthScape uses a dedicated Machine Learning service built with **Python**, **FastAPI**, and **XGBoost** to generate accurate weather forecasts for major Pakistani cities.
+The weather prediction engine is maintained in a separate repository.
 
-### ML Repository
+**ML Repository**
 
 https://github.com/tayyabawaseem/EarthScape-ML-Model
 
-### ML Features
+### ML Capabilities
 
 - Temperature Forecasting
 - Historical Weather Analysis
 - FastAPI Prediction API
 - XGBoost Regression Model
-- Model Evaluation Metrics
 - Multi-City Forecasting
+- Performance Evaluation Metrics
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                Meteostat Weather Data
+                         │
+                         ▼
+                Data Processing Pipeline
+                         │
+                         ▼
+             XGBoost Machine Learning Model
+                         │
+                         ▼
+                  FastAPI Prediction API
+                         │
+                         ▼
+               Next.js Web Application
+                         │
+                         ▼
+            EarthScape Interactive Dashboard
+```
 
 ---
 
 # 🚀 Getting Started
 
-## Clone Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/tayyabawaseem/EarthScape.git
 ```
 
-## Navigate
+### Navigate to the project
 
 ```bash
 cd EarthScape
 ```
 
-## Install Dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-## Run Development Server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open
+Open your browser:
 
 ```text
 http://localhost:3000
@@ -194,52 +169,13 @@ http://localhost:3000
 
 # 🌍 Deployment
 
-### Live Website
+**Live Website**
 
 https://earth-scape.vercel.app
 
-### Hosting
+**Hosting Platform**
 
 - Vercel
-
----
-
-# 📸 Screenshots
-
-> Add project screenshots here.
-
-### 🏠 Home Page
-
-```
-screenshots/home.png
-```
-
-### 📊 Dashboard
-
-```
-screenshots/dashboard.png
-```
-
-### 🤖 AI Forecast
-
-```
-screenshots/forecast.png
-```
-
----
-
-# 🗺 Roadmap
-
-- ✅ AI Weather Forecasting
-- ✅ Interactive Dashboard
-- ✅ FastAPI Integration
-- ✅ Responsive Design
-- 🔄 Rainfall Prediction
-- 🔄 Air Quality Monitoring
-- 🔄 Heatwave Alerts
-- 🔄 Climate Reports
-- 🔄 GIS Mapping
-- 🔄 User Authentication
 
 ---
 
@@ -249,27 +185,39 @@ screenshots/forecast.png
 |---------|--------|
 | Frontend | ✅ Completed |
 | Dashboard | ✅ Completed |
-| Machine Learning | ✅ Completed |
-| FastAPI Integration | ✅ Completed |
-| Deployment | ✅ Live |
-| Future Improvements | 🚧 In Progress |
+| Machine Learning Integration | ✅ Completed |
+| FastAPI Backend | ✅ Completed |
+| Live Deployment | ✅ Active |
+| Future Enhancements | 🚧 Ongoing |
+
+---
+
+# 🗺️ Future Improvements
+
+- Rainfall Forecasting
+- Air Quality Monitoring
+- Heatwave Alerts
+- Climate Risk Analysis
+- GIS-Based Weather Maps
+- User Authentication
+- Personalized Weather Dashboard
 
 ---
 
 # 👩‍💻 Developer
 
-## Tayyaba Waseem
+**Tayyaba Waseem**
 
-**Full Stack Developer • MERN Stack Developer • AI Enthusiast**
+Full Stack Developer • MERN Stack Developer • AI Enthusiast
 
-- 🌐 Portfolio: https://earth-scape.vercel.app
+- 🌐 Live Project: https://earth-scape.vercel.app
 - 💻 GitHub: https://github.com/tayyabawaseem
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
 
 ---
 
